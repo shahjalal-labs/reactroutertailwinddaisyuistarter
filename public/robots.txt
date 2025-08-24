@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deshguide.surge.sh/sitemap.xml
+
+

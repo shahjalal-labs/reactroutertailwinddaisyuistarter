@@ -1,0 +1,16 @@
+const Spinner = ({ message }) => {
+  return (
+    <div className="min-h-[70vh] flex items-center justify-center ">
+      <div>
+        <h2 className="font-semibold mb-2"> laoding {message}...</h2>
+        <span className="loading loading-bars loading-xs"></span>
+        <span className="loading loading-bars loading-sm"></span>
+        <span className="loading loading-bars loading-md"></span>
+        <span className="loading loading-bars loading-lg"></span>
+        <span className="loading loading-bars loading-xl"></span>
+      </div>{" "}
+    </div>
+  );
+};
+
+export default Spinner;
